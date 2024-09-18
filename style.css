@@ -64,7 +64,7 @@ main {
 /* Abschnittsüberschriften */
 h2 {
     color: #333;
-    border-bottom: 1.5px solid #333;
+    border-bottom: 1.5px solid #999; /* Dünnerer Grauton für die Linie */
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
     font-weight: 350; /* Schriftstärke auf dünner setzen */
@@ -95,7 +95,6 @@ section ul li {
     box-shadow: 0 0 10px rgba(206, 40, 40, 0.1); /* Gleicher Schatten wie bei den Skills */
 }
 
-
 li i {
     display: block;
     font-style: italic;
@@ -107,7 +106,6 @@ li p {
     margin: 0;
     padding-left: 4rem;
     margin-top: 0.5rem; /* Abstand zwischen dem Jahr und dem unteren Text */
-    
 }
 
 /* Einrückung für den Bildungstext */
