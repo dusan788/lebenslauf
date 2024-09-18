@@ -1,0 +1,154 @@
+/* Basis-Styling für die gesamte Seite */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    max-width: 960px;
+    margin: auto;
+}
+
+/* Header-Styling */
+header {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 3em;
+    letter-spacing: .5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+header hr {
+    border: 0;
+    height: 1px;
+    background: #fff;
+    margin: 0.5rem 0;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Main-Styling */
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+/* Gitterlayout für die Abschnitte */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}
+
+.left-side {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(12, 30, 129, 0.5);
+}
+
+.right-side {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Abschnittsüberschriften */
+h2 {
+    color: #333;
+    border-bottom: 1.5px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: 350; /* Schriftstärke auf dünner setzen */
+}
+
+/* Kontakt- und Bildungsabschnitt-Styling */
+p {
+    margin: 0.5rem 0;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 1rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(206, 40, 40, 0.1);
+}
+
+section ul li {
+    background: #f4f4f4; /* Hellgraue Hintergrundfarbe */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(206, 40, 40, 0.1); /* Gleicher Schatten wie bei den Skills */
+}
+
+
+li i {
+    display: block;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+}
+
+li p {
+    margin: 0;
+    padding-left: 4rem;
+    margin-top: 0.5rem; /* Abstand zwischen dem Jahr und dem unteren Text */
+    
+}
+
+/* Einrückung für den Bildungstext */
+.education-list {
+    padding: 0;
+}
+
+.education-list li p {
+    padding-left: 4rem;
+}
+
+/* Stile für Skills-Liste */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skill-item {
+    background: #f4f4f4;
+    padding: 0.5rem;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 200px; /* Breite anpassen, damit der Text besser passt */
+    display: flex;
+    align-items: center;
+    white-space: nowrap; /* Verhindert Zeilenumbrüche */
+}
+
+.skill-item .icon {
+    margin-right: 0.5rem;
+    width: 24px;
+    height: 24px;
+}
+
+/* Links-Styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
