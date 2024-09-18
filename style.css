@@ -150,3 +150,18 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Responsive Styling für kleinere Bildschirme */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em; /* Kleinere Schriftgröße für kleinere Bildschirme */
+    }
+
+    header p {
+        font-size: 1rem; /* Kleinere Schriftgröße für kleinere Bildschirme */
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr; /* Einspaltiges Layout für kleinere Bildschirme */
+    }
+}
